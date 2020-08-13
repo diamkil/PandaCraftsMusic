@@ -44,7 +44,7 @@ describe("MusicBot", () => {
     expect(chatRoom.sendMessage).toBeCalledWith(expectedResponse);
   })
 
-test('Bot should NOT send a response if message is not a valid command', () => {
+  test('Bot should NOT send a response if message is not a valid command', () => {
     const messageContent = 'Squad down for some CSGO tonight?';
     const message = new Message(chatRoom, messageContent);
 
@@ -52,5 +52,5 @@ test('Bot should NOT send a response if message is not a valid command', () => {
 
     // No messages should be sent
     expect(chatRoom.sendMessage).toBeCalledTimes(0);
-});
+  });
 })
