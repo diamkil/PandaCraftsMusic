@@ -29,7 +29,7 @@
     "jest": "26.4.0"
   },
   "dependencies": {
-    "discord.js": "12.3.1",
+    "discord.js": "12.4.0",
     "eslint": "^7.7.0",
     "youtube-dl": "3.0.2"
   }
