@@ -24,7 +24,7 @@
     "@babel/core": "7.11.1",
     "@babel/plugin-transform-runtime": "7.11.0",
     "@babel/preset-env": "7.11.0",
-    "@babel/runtime": "7.11.2",
+    "@babel/runtime": "7.12.5",
     "@types/jest": "26.0.10",
     "jest": "26.4.0"
   },
